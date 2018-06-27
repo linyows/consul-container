@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 docker build -t linyows/consul:1.2-node .
 docker push linyows/consul:1.2-node
