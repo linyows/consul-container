@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker build -t linyows/consul:1.2 .
+docker push linyows/consul:1.2
+
+docker build -t linyows/consul:latest .
+docker push linyows/consul:latest

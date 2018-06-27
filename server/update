@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t linyows/consul:1.2-server .
+docker push linyows/consul:1.2-server
